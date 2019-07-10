@@ -1,6 +1,5 @@
-# Firepoker
+# firepoker
 
-[![Build Status](https://drone.appsrv.com/api/badges/Wizehive/Firepoker/status.svg)](https://drone.appsrv.com/Wizehive/Firepoker)
 
 Agile Planning Poker® powered by Firebase and AngularJS
 
@@ -10,20 +9,65 @@ Planning Poker®, also called Scrum poker, is a consensus-based technique for es
 
 To read more, check out the [Wikipedia](https://en.wikipedia.org/wiki/Planning_poker) page.
 
-
 ## Getting Started
 
-* Clone the repository: `git clone https://github.com/Wizehive/Firepoker.git`
-* Install with [NPM](https://github.com/isaacs/npm): `npm install`
-* Install with [Bower](https://github.com/bower/bower): `bower install`
-* To run the local server: `grunt server`
-* To run unit tests: `grunt karma:unit`
+Clone the repository
+
+```
+git clone https://github.com/Wizehive/firepoker.git
+```
+
+Install NVM if you haven't yet
+
+```
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
+```
+
+Setup your environment to node v4.3.2
+
+```
+# install the compatible node version
+nvm install
+
+# changes terminal session to use the compatible node version
+nvm use
+```
+
+Install dependencies
+
+```
+npm install
+```
+
+Install bower and grunt-cli
+
+```
+npm install -g bower grunt-cli@0.1.x
+```
+
+Install [Bower](https://github.com/bower/bower) dependecies
+
+```
+bower install
+```
+
+To run the local server
+
+```
+grunt server
+```
+
+To run unit tests
+
+```
+grunt karma:unit
+```
 
 ## Contributing
 
 Anyone and everyone is welcome to contribute. Clone the repository and fire your pull requests.
 
-Think you've found a bug or have a new feature to suggest? Let us know! [Open an issue](https://github.com/Wizehive/Firepoker/issues).
+Think you've found a bug or have a new feature to suggest? Let us know! [Open an issue](https://github.com/Wizehive/firepoker/issues).
 
 ## Legal and License
 
