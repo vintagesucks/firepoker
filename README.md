@@ -1,5 +1,6 @@
 # firepoker
 
+[![CircleCI](https://circleci.com/gh/Wizehive/firepoker.svg?style=svg)](https://circleci.com/gh/Wizehive/firepoker)
 
 Agile Planning Poker® powered by Firebase and AngularJS
 
