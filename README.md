@@ -24,7 +24,7 @@ Install NVM if you haven't yet
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
 ```
 
-Setup your environment to node v4.3.2
+Setup your environment to use the supported node version
 
 ```
 # install the compatible node version
